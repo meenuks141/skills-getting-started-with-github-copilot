@@ -90,6 +90,39 @@ section h3 {
   color: #0066cc;
 }
 
+.participants-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.participant-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  color: #555;
+  list-style: none;
+}
+
+.delete-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  min-width: 32px;
+  text-align: center;
+}
+
+.delete-btn:hover {
+  background-color: #b71c1c;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
